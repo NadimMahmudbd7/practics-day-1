@@ -7,9 +7,12 @@ body{
     font-family: 'Poppins', sans-serif;
     background: #E5E5E5;
 }
-.main{
+.main, .top-section, .last-section{
     width: 1200px;
     margin: 0 auto;
+}
+.header-colo{
+    background-color: blue;
 }
 .title{
     font-size: 20px;
@@ -36,6 +39,7 @@ justify-content: center;}
 .menu-item ul{
     display: flex;
 }
+
 .menu-item ul li{
     list-style: none;
 } 
@@ -128,7 +132,7 @@ span a{
     margin-left: 4px;
 }
 /* ------------------------------------------------------------------------- */
-.blog-course{background-color: white;margin-top: 30px;padding-top: 30px;border-radius: 5px;}
+.blog-course{background-color: white;margin-top: 30px;padding-top: 30px;border-radius: 5px;padding-bottom: 30px;margin-bottom: 30px;}
 .course-image img{
     Width:224px;
     Height:104px;
